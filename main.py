@@ -9,8 +9,7 @@ from typing import List
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from google import genai
-from google.genai import types
+
 
 # --- App Setup ---
 app = FastAPI()
